@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/pr.geweb.ru/webstat"
+AuthUserFile /var/www/solarstudio/data/etc/33689115.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

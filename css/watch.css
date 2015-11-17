@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+body{
+	background-image:url('../1-f.jpg');
+}
+.main{
+background: #26a69a;
+color: white;
+font: normal 12px 'Open Sans', sans-serif;
+margin-top: 20px;
+}
+ul.countdown {
+list-style: none;
+padding: 0;
+display: block;
+text-align: center;
+
+}
+ul.countdown li {
+display: inline-block;
+}
+ul.countdown li span {
+font-size: 80px;
+font-weight: 300;
+line-height: 80px;
+}
+ul.countdown li.seperator {
+font-size: 80px;
+line-height: 70px;
+vertical-align: top;
+}
+ul.countdown li p {
+font-size: 14px;
+}
+.days_ref,.hours_ref,.minutes_ref,.seconds_ref{
+color:#FFF;
+}
